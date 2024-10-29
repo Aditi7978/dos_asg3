@@ -19,9 +19,9 @@ op2=$3
 case "$op" in 
 	"+" ) result=$((op1+op2));;
 	"-" ) result=$((op1-op2));;
-	"*" ) result=$((op1*op2));;
+	"x" ) result=$((op1*op2));;
 	"/" ) result=$((op1\op2));;
 	"%" ) result=$((op1%op2));;
-	"^" ) result=$((op1^op2));;
+	"^" ) result=$((op1**op2));;
 esac
 echo " $op1 $op $op2 = $result "
