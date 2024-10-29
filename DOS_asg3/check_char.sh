@@ -1,11 +1,5 @@
-#9. Write a shell script check_char which will display one message to enter a character and
-#according to the character entered it will display appropriate message from the following
-#options:
-# You entered a lower case alphabet
-#You entered an upper case alphabet.
-# You have entered a digit.
-# You have entered a special symbol.
-# You have entered more than one character.
+#q9
+# not done
 echo "enter a character"
 read c
 
